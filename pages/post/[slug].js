@@ -8,9 +8,9 @@ import {
   Author,
   Comments,
   CommentsForm,
-  Loader,
 } from '../../components';
 import { getPosts, getPostDetails } from '../../services';
+import Loader from '../../components/Loader';
 
 const PostDetails = ({ post }) => {
   const router = useRouter();
